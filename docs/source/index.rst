@@ -3,12 +3,26 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to my_project's documentation!
-======================================
+Welcome to the science as software template documentation!
+==========================================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+
+
+Install with::
+
+    git clone https://github.com/astronomyk/science_as_software.git
+
+Run tests with ``pytest`` in the home directory::
+
+    pytest -rf
+
+The ``-rf`` tag lists the failures at the end of the run
+
+
+
 
 
 
